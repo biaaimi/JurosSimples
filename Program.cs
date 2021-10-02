@@ -19,8 +19,8 @@ namespace exercicios_etec
             double Juros = Convert.ToDouble(Capital) * Taxa_juros* Convert.ToDouble(Meses);
             double Montante = Convert.ToDouble(Capital) + Juros;
 
-            Console.WriteLine($"Juros (R$) = {Juros}");
-            Console.WriteLine($"Montante (R$) = {Montante}");
+            Console.WriteLine($"Juros (R$) = {Juros:C2}");
+            Console.WriteLine($"Montante (R$) = {Montante:C2}");
 
 
         }
